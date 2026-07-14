@@ -7,390 +7,41 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>唐静怡 | MyStudy</title>
+<title>Jingyi Studio</title>
 
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-
-html{
-scroll-behavior:smooth;
-}
-
-
-
-body{
-
-background:#F8F4EC;
-
-color:#333;
-
-font-family:
-"Songti SC",
-"Noto Serif SC",
-serif;
-
-}
-
-
-/* 导航 */
-
-nav{
-
-position:fixed;
-
-top:0;
-
-width:100%;
-
-padding:18px 40px;
-
-display:flex;
-
-justify-content:space-between;
-
-background:rgba(248,244,236,0.85);
-
-backdrop-filter:blur(10px);
-
-z-index:10;
-
-}
-
-
-.logo{
-
-font-size:22px;
-
-letter-spacing:3px;
-
-color:#1F3A32;
-
-}
-
-
-nav a{
-
-text-decoration:none;
-
-color:#555;
-
-margin-left:25px;
-
-}
-
-
-
-
-
-/* 首页 */
-
-.hero{
-
-
-height:100vh;
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-padding:40px;
-
-
-}
-
-
-
-.name{
-
-font-size:64px;
-
-letter-spacing:15px;
-
-color:#17352D;
-
-
-}
-
-
-.en{
-
-margin-top:10px;
-
-font-size:18px;
-
-letter-spacing:5px;
-
-color:#C49A55;
-
-}
-
-
-
-.slogan{
-
-margin-top:35px;
-
-font-size:26px;
-
-color:#1F3A32;
-
-}
-
-
-
-.description{
-
-margin-top:25px;
-
-max-width:650px;
-
-font-size:18px;
-
-line-height:2;
-
-color:#555;
-
-}
-
-
-
-.btn{
-
-margin-top:45px;
-
-padding:14px 45px;
-
-border-radius:40px;
-
-background:#1F3A32;
-
-color:white;
-
-text-decoration:none;
-
-transition:.4s;
-
-}
-
-
-
-.btn:hover{
-
-background:#C49A55;
-
-}
-
-
-
-
-
-/* 内容 */
-
-.section{
-
-max-width:1100px;
-
-margin:auto;
-
-padding:100px 30px;
-
-}
-
-
-
-.title{
-
-text-align:center;
-
-font-size:38px;
-
-color:#17352D;
-
-margin-bottom:50px;
-
-}
-
-
-
-.about{
-
-text-align:center;
-
-font-size:19px;
-
-line-height:2;
-
-}
-
-
-
-
-
-/* 卡片 */
-
-.cards{
-
-display:flex;
-
-flex-wrap:wrap;
-
-gap:30px;
-
-justify-content:center;
-
-}
-
-
-
-.card{
-
-background:white;
-
-width:300px;
-
-padding:35px;
-
-border-radius:20px;
-
-box-shadow:
-
-0 15px 40px rgba(0,0,0,.08);
-
-transition:.4s;
-
-}
-
-
-
-.card:hover{
-
-transform:translateY(-10px);
-
-}
-
-
-
-.card h3{
-
-color:#17352D;
-
-margin-bottom:15px;
-
-}
-
-
-
-.card p{
-
-color:#555;
-
-}
-
-
-
-
-
-/* 时间轴 */
-
-
-.timeline{
-
-border-left:2px solid #C49A55;
-
-padding-left:35px;
-
-}
-
-
-.item{
-
-margin-bottom:35px;
-
-}
-
-
-
-
-/* 诗句 */
-
-
-.quote{
-
-text-align:center;
-
-font-size:28px;
-
-color:#17352D;
-
-padding:80px 20px;
-
-}
-
-
-
-
-footer{
-
-text-align:center;
-
-padding:50px;
-
-color:#888;
-
-}
-
-
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
-
 
 
 <body>
 
 
+<header class="navbar">
+
+<div class="logo">
+Jingyi Studio
+</div>
+
 
 <nav>
 
-<div class="logo">
-
-MyStudy
-
-</div>
-
-
-<div>
-
 <a href="#about">
-关于我
+About
 </a>
 
 <a href="#works">
-作品
+Works
 </a>
 
-<a href="#growth">
-成长
+<a href="#vision">
+Vision
 </a>
-
-</div>
-
 
 </nav>
+
+
+</header>
 
 
 
@@ -399,87 +50,95 @@ MyStudy
 <section class="hero">
 
 
-<h1 class="name">
+<div class="hero-content">
 
-唐静怡
+
+<p class="small-title">
+
+Humanities × Technology × Creation
+
+</p>
+
+
+
+<h1>
+
+Jingyi Studio
 
 </h1>
 
 
-<p class="en">
 
-TANG JINGYI · PORTFOLIO
+<h2>
 
-</p>
+探索人文与科技交汇处的新表达
 
-
-<p class="slogan">
-
-文学 · 思考 · 创造
-
-</p>
+</h2>
 
 
-<p class="description">
 
-一名汉语言文学专业学生。
+<p>
 
-<br>
+一个属于我的数字创作空间。
 
-记录文字的力量，
-探索文化与人工智能时代的新表达。
+记录文学、文化、项目与成长，
+探索人工智能时代新的可能。
 
 </p>
 
 
 
-<a href="#works" class="btn">
+<a href="#about" class="button">
 
-进入我的作品集
+Enter Studio
 
 </a>
 
 
-
-</section>
-
-
-
-
-
-
-
-<section class="section" id="about">
-
-
-<h2 class="title">
-
-关于我
-
-</h2>
-
-
-
-<div class="about">
-
-
-我相信：
-
-<br>
-
-文字连接过去，
-思想创造未来。
-
-<br><br>
-
-
-这里保存我的文学学习、
-文化实践、
-创作探索以及大学成长轨迹。
-
 </div>
 
 
+</section>
+
+
+
+
+
+
+
+<section id="about" class="section">
+
+
+<h2>
+
+About Me
+
+</h2>
+
+
+<p>
+
+Jingyi Studio 是一个持续成长的个人创作空间。
+
+<br><br>
+
+这里关注：
+
+<br>
+
+文学研究 · 文化观察 · 数字创造 · AI探索
+
+<br><br>
+
+我相信：
+
+文字连接过去，
+技术拓展未来，
+创造让思想产生新的生命。
+
+</p>
+
+
 
 </section>
 
@@ -490,33 +149,42 @@ TANG JINGYI · PORTFOLIO
 
 
 
-<section class="section" id="works">
+<section id="works" class="section">
 
 
-<h2 class="title">
+<h2>
 
-我的领域
+Creative Fields
 
 </h2>
+
 
 
 <div class="cards">
 
 
+
 <div class="card">
+
 
 <h3>
 
-📖 文学研究
+📖 Humanities
 
 </h3>
 
 
 <p>
 
-古代文学研究<br>
-经典阅读记录<br>
-课程论文整理
+文学阅读
+
+<br>
+
+经典研究
+
+<br>
+
+人文思考
 
 </p>
 
@@ -528,18 +196,25 @@ TANG JINGYI · PORTFOLIO
 
 <div class="card">
 
+
 <h3>
 
-🎬 文化实践
+🎬 Culture
 
 </h3>
 
 
 <p>
 
-文化产业调研<br>
-地方文化观察<br>
-影像作品记录
+文化实践
+
+<br>
+
+影像记录
+
+<br>
+
+地方文化探索
 
 </p>
 
@@ -551,18 +226,25 @@ TANG JINGYI · PORTFOLIO
 
 <div class="card">
 
+
 <h3>
 
-🤖 AI探索
+🤖 Technology
 
 </h3>
 
 
 <p>
 
-人工智能工具应用<br>
-数字化学习实验<br>
-未来创作探索
+AI工具探索
+
+<br>
+
+数字学习
+
+<br>
+
+未来创造方式
 
 </p>
 
@@ -583,98 +265,35 @@ TANG JINGYI · PORTFOLIO
 
 
 
-<section class="section" id="growth">
+
+<section id="vision" class="section vision">
 
 
-<h2 class="title">
+<h2>
 
-成长轨迹
+My Vision
 
 </h2>
 
 
-
-<div class="timeline">
-
-
-<div class="item">
-
-<h3>
-
-2026
-
-</h3>
-
-
 <p>
 
-建立 MyStudy，
-开启个人数字作品集。
+在快速变化的时代，
+
+<br><br>
+
+保持人文温度，
+
+拥抱技术变化，
+
+创造属于自己的表达方式。
 
 </p>
 
-</div>
-
-
-
-<div class="item">
-
-<h3>
-
-大学阶段
-
-</h3>
-
-
-<p>
-
-积累文学研究、
-实践项目和创作成果。
-
-</p>
-
-</div>
-
-
-
-
-<div class="item">
-
-<h3>
-
-未来
-
-</h3>
-
-
-<p>
-
-成为连接文学、
-文化与科技的新型创造者。
-
-</p>
-
-</div>
-
-
-
-</div>
 
 
 </section>
 
-
-
-
-
-
-<div class="quote">
-
-
-“腹有诗书气自华”
-
-
-</div>
 
 
 
@@ -683,12 +302,28 @@ TANG JINGYI · PORTFOLIO
 
 <footer>
 
-© 2026 Tang Jingyi · MyStudy
+
+<p>
+
+Jingyi Studio
+
+</p>
+
+
+<p>
+
+Humanities × Technology × Creation
+
+</p>
+
 
 </footer>
 
 
 
+
+
+<script src="script.js"></script>
 
 
 </body>
